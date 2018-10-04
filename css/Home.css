@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    position:relative;
+    min-height:100vh;
+    background:linear-gradient(to top left, rgba(73, 18, 18, 0.644), rgba(53, 77, 185, 0.9)),url('../images/Students-and-Teacher-738x492.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family:'Segoe UI';
+    background-position: center;
+}
+@font-face {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI'), url('segoeui.woff') format('woff');
+    }
+header{
+    padding-left:10%;
+    padding-top:2.5%;    
+}
+main{
+    margin-top:130px;;
+}
+.content{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+.title{
+    font-size:60px;
+    color:white;
+    font-weight:600;
+    margin-bottom:30px;
+
+}
+.description{
+    font-size:18px;
+    color:white;
+    font-weight:400px;
+    margin-bottom:30px;
+
+}
+.date{
+    font-size:18px;
+    color:white;
+    font-weight:400;
+    margin-bottom:30px;
+
+}
+.start{
+    border-radius: 15px;
+    
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    padding:5px 35px;
+    text-decoration:none;
+    border:none;
+    font-weight:600;
+    line-height:1.5;
+    background:linear-gradient(to  left, rgba(109, 160, 180, 0.644), rgba(53, 77, 185, 0.9));
+    box-shadow:0px 0 30px rgba(27, 92, 136, 0);
+    color:white;
+    margin-bottom:20px;
+    
+}
+footer{
+    bottom:0;
+    position:absolute;
+    width:100%;
+    background:rgba(0, 0, 0, 0.281);
+    color:white;
+    font-weight:600;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+
+}
+

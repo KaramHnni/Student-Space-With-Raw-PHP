@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    min-height:100vh;
+    position:relative;
+   
+    font-family:'Segoe UI';
+}
+@font-face {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI'), url('segoeui.woff') format('woff');
+    }
+.hero_image{
+    background:linear-gradient(to bottom, rgba(243, 83, 3, 0.5), rgb(207, 109, 60,0.5)),url('../images/tamarcus-brown-134928-unsplash.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    padding-top:2.5%;  
+    height:120px;
+
+}
+.Nav{
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    
+    
+    
+}
+.Nav li a{
+    color:white;
+    display:block;
+    width:150px;
+    text-align:center;
+    text-decoration:none;
+    font-weight:600;
+    font-size:14px;
+    
+
+}
+
+
+.inside_li{
+    margin-top:20px;
+    background:white;
+   
+    display:none;
+    list-style:none;
+    
+}
+.inside_li li a{
+    padding-top:10px;
+    padding-bottom:10px;
+    color:rgba(14, 13, 12, 0.6);
+}
+.inside_li li a:hover{
+    background:rgba(255, 140, 0, 0.747);
+}
+.Nav li:hover .inside_li {
+    display:block;
+    position: relative;
+
+}
+.Nav li:hover .inside_li:before {
+    content: "";
+    width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+    border-bottom: 10px solid white;
+    margin-left:auto;
+    margin-right:auto;
+    position: absolute;
+    left: calc(50% - 5px);
+    top:-10px
+
+}
+main{
+    margin-top:5%;
+    text-align:center;
+    color:white;
+    
+
+}
+.welcome{
+    font-size:35px;
+    margin-bottom:5%;
+}
+.button{
+    margin-top:5%;
+    
+    display:block;
+    width:17%;
+    
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:1.7%;
+    padding-right:1.7%;
+    padding-top:1%;
+    padding-bottom:1%;
+    border:2px solid white;
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+}
+.button:hover{
+    background:white;
+    color:rgb(243, 83, 3);
+    
+}
+.page2{
+    height:100vh;
+}
+
+.captionline{
+    display:flex;
+    justify-content:space-around;
+    margin-top:5%;
+    margin-bottom:2%;
+    align-items: center;
+}
+hr{
+    width:20%;
+    height:1px;
+    
+    
+}
+.caption_2{
+        text-align:center;
+        color:rgba(0, 0, 0, 0.9);
+        font-size:25px;
+        font-weight:400;
+        
+}
+.sub_caption{
+    color:#999999;
+    text-align:center;
+    font-size:18px;
+    font-weight: 100;
+
+}
+.tables{
+    margin-top:10%;
+    display:flex;
+    justify-content:space-between; 
+}
+.tables section{
+    
+    width:38%;
+    margin-bottom:5%;
+    margin-left:auto;
+    margin-right:auto;
+    border:1px solid #d7d7d7;
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.11);
+}
+table{
+    
+    table-layout: fixed;
+    border-collapse: collapse;
+    
+}
+th,td{
+    
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:5px;
+    text-align:center;
+}
+th{
+    padding-top:10px;
+}
+.table_caption{
+    padding-bottom:1%;
+    padding-top:1%;
+    text-align:center;
+    color:rgba(0, 0, 0, 0.9);
+    background:white;
+    font-weight:600;
+
+}
+tr{
+    border-bottom:1px solid #cec2c28a;
+    background:#d7d7d734;
+    
+}
+.first{
+    border:none;
+}
+.page3{
+    height:100vh;
+
+}
+.page3 .tables section{
+    width:22%;
+}
+footer{
+    background:rgba(8, 7, 7, 0.9);
+    color:white;}
+footer p {
+    padding-top:2%;
+    padding-bottom:2%;
+    text-align:center;
+    font-size:11px;
+    font-weight:600;
+}
+
+
+
+
+    

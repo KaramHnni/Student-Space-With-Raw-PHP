@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inscrivez Vous Connectez</title>
+        <link href="css/Teacher.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+                <a href="../index.php"><section class="logo"></section></a>
+        </header>
+        <main>
+            <section class="captions">
+                <h1 class="title">Website's Name </h1>
+                <h2 class="description">Description And Stuff, Maybe some quotes<br> And Creation Date</h2>
+            </section>
+            <section class="form">
+                        <ul class="menu">
+                            <li><a href="#connexion">Connexion</a></li>
+                            <li><a href="#inscription">Inscrivez-vous</a></li>
+                        </ul>
+                        <form id="connexion" class="boxes" method="POST">
+                            <section class="group">
+                                <label for="User">Nom d'Utilisateur</label>
+                                <input type="text" class="champ" id="User" required>
+                            </section>
+                           <section class="group"> 
+                                <label for="pass">Mot de Passe</label>
+                                <input type="password" class="champ" id="pass" required >   
+                          </section>    
+                          <span class="lien">Vous n'avez pas de compte?<a href="#inscription">Inscrivez Vous</a></span>  
+                                  <input type="submit" value="connexion "class="Sign">
+                                 
+                         
+                        </form>
+                        <form id="inscription" class="boxes" method="POST">
+                                <section class="group">
+                                <label for="Noom">Nom</label>
+                                <input type="text" class="champ" name="Nom" id="Noom" required>
+                                </section>
+                                <section class="group">
+                                <label for="Prenom">Prenom</label>
+                                <input type="text" class="champ" name="Prenom" required>
+                                </section>
+                                <section class="group">
+                                <label for="mail">E-mail</label>
+                                <input type="text" class="champ" name="mail" required>
+                                </section>
+                                <section class="group">
+                                <label for="username">Nom d'utilisateur</label>
+                                <input type="text" class="champ" name="username"required>
+                                </section>
+                                <section class="group">
+                                <label for="pass">Mot de Passe</label>
+                                <input type="password" class="champ" name="pass" required>
+                                </section>
+                                <span class="lien">Vous avez deja un compte? <a href="#connexion">Connectez Maintenant</a></span>
+                                 <input type="submit" value="Inscrivez-vous" class="Sign">
+                            
+                        </form>
+            </section>
+        </main>
+        <footer>
+                <p> All right reserved (2018) &copy; </p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Notes</title>
+        <link href="css/Notes_Etudiant.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+
+    </head>
+    <body>
+        <header>
+                <a href="Accueil_Student.html"><section class="logo"></section></a>
+                <ul class="Nav">
+                    <li><a href="#">Consultation</a>
+                        <ul class="inside_li">
+                            	<div class="tring">
+                            <li><a href="Absences_Etudiant.html">Abscenes</a></li>
+                            <li><a href="Notes_Etudiant.html">Notes</a></li>
+                        </div>
+                        </ul>
+                    </li>
+                    <li><a href="#">Information</a>
+                        <ul class="inside_li">
+                            <li><a href="Liste_Groupe.html">Liste du Groupe</a></li>
+                            <li><a href="Liste_Ens.html">Liste des enseignants </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Contact.html">Contactez nous</a></li>
+                </ul>
+                <ul class="Nav">
+                    <li> <a href="#">Bonjour User</a>
+                        <ul class="inside_li">
+                            <li><a href="Profile.html">Profile</a></li>
+                            <li><a href="Student.html#connexion">Déconnexion</a></li>
+                        </ul>
+                    </li>
+                </ul>
+        </header>
+        <main>
+            <section class="section">
+                    <section class="captionline">
+                            <hr>
+                        <h1 class="caption_2">Notes </h1>
+                        <hr>
+                        </section>
+                <p class="inst">Selectionnez les modules que vous voulez affiché :</p>
+                <section class="head">
+                        
+                 <label class="container">Programmation Systeme avancé
+                 <input type="checkbox" id="PS" onclick="display('Ps','PS')">
+                <span class="checkmark"></span>
+                </label>
+                <label class="container">Technologie Web
+                <input type="checkbox" id="TW" onclick="display('Tw','TW')">
+                 <span class="checkmark"></span>
+                </label>
+              
+                 <label class="container">Compilation
+                <input type="checkbox" id="CO" onclick="display('Co','CO')">
+                <span class="checkmark"></span>
+                </label>
+                <label class="container">Informatique Parallele et distribué
+                <input type="checkbox" id="IPD" onclick="display('IPd','IPD')">
+                <span class="checkmark"></span>
+                </label>
+                <label class="container">Web Semantique
+                <input type="checkbox" id="WS" onclick="display('Ws','WS')">
+                <span class="checkmark"></span>
+                </label>
+                <label class="container">Francais
+                <input type="checkbox" id="FR" onclick="display('Fr','FR')">
+                <span class="checkmark"></span>
+                </label>
+
+            </section>
+            <section class="Data">
+            <section class="Notes" id="Ps">
+                    <table >
+                        <tr class="first">
+                            <th>CC</th>
+                            <th>TD</th>
+                            <th>TP</th>
+                            <th>ES</th>
+                            
+                            
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>12</td>
+                            <td>14</td>
+                            <td>2</td>
+                           
+                        </tr>
+                    </table>
+                    <h1 class="table_caption"> Vos Notes Du Programmation Systeme avancé</h1>
+                    </section>
+                    <section class="Notes" id="Tw">
+                    <table >
+                            <tr class="first">
+                                <th>CC</th>
+                                <th>TD</th>
+                                <th>TP</th>
+                                <th>ES</th>
+                                
+                                
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>12</td>
+                                <td>14</td>
+                                <td>2</td>
+                               
+                            </tr>
+                        </table>
+                        <h1 class="table_caption"> Vos Notes Du Technologie Web</h1>
+                    </section>
+                    <section class="Notes" id="Co">
+                        <table >
+                                <tr class="first">
+                                    <th>CC</th>
+                                    <th>TD</th>
+                                    <th>TP</th>
+                                    <th>ES</th>
+                                    
+                                    
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>12</td>
+                                    <td>14</td>
+                                    <td>2</td>
+                                   
+                                </tr>
+                            </table>
+                            <h1 class="table_caption"> Vos Notes Du Compilation</h1>
+                        </section>
+                        <section class="Notes" id="Ws">
+                            <table >
+                                    <tr class="first">
+                                        <th>CC</th>
+                                        <th>TD</th>
+                                        <th>TP</th>
+                                        <th>ES</th>
+                                        
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>12</td>
+                                        <td>14</td>
+                                        <td>2</td>
+                                       
+                                    </tr>
+                                </table>
+                                <h1 class="table_caption"> Vos Notes Du Semantique</h1>
+                                
+                </section>
+                <section class="Notes"id="IPd">
+                        <table >
+                                <tr class="first">
+                                    <th>CC</th>
+                                    <th>TD</th>
+                                    <th>TP</th>
+                                    <th>ES</th>
+                                    
+                                    
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>12</td>
+                                    <td>14</td>
+                                    <td>2</td>
+                                   
+                                </tr>
+                            </table>
+                            <h1 class="table_caption"> Vos Notes D'Informatique parallélé et distribués</h1>
+                            
+            </section>
+            <section class="Notes" id="Fr">
+                    <table >
+                            <tr class="first">
+                                <th>CC</th>
+                                <th>TD</th>
+                                <th>TP</th>
+                                <th>ES</th>
+                                
+                                
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>12</td>
+                                <td>14</td>
+                                <td>2</td>
+                               
+                            </tr>
+                        </table>
+                        <h1 class="table_caption"> Vos Notes Du Francais</h1>
+                        
+        </section>
+                </section>
+                </section>
+        </main>
+        <script>
+                function display(id,name){
+                if(document.getElementById(name).checked==true ){
+                document.getElementById(id).style.display='block';
+                }
+                else{
+                    document.getElementById(id).style.display='none';
+                }
+                }
+                
+                
+
+                
+        
+
+        </script>
+        <footer>
+       
+                <p> All right reserved (2018) &copy; </p>
+            </footer>
+        
+        </body>

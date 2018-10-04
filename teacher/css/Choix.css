@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    position:relative;
+    min-height:100vh;
+    background:linear-gradient(to top left, rgba(202, 134, 89, 0.699), rgba(30, 104, 165, 0.747)),url('../images/modal_04365_kamakura-u_ofuna_0001.jpg');
+    background-size:cover;
+    font-family:'Segoe UI';
+    
+}
+@font-face {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI'), url('segoeui.woff') format('woff');
+    }
+    
+
+header{
+    
+    padding-left:10%;
+    padding-top:2.5%;    
+}
+.logo{
+    background:white;
+    height:50px;
+    width:100px;
+    
+}
+main{
+    display:flex;
+    justify-content:space-around;
+    margin-top:5%;
+}
+.boite{
+    width:30%;
+    height:350px;
+    background:white;
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.418);
+}
+
+.boite img{
+    margin-top:10%;
+    display:block;
+    width:45%;
+    height:55%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.caption{
+    width:90%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    text-decoration:none;
+    margin-top:10%;
+    font-size:20px;
+    text-align:center;
+    color:#a7a7a7;
+    font-weight:600;
+
+}
+footer{
+    margin-top:9%;
+    color:white;
+    text-align:center;
+    font-size:11px;
+    font-weight:600;
+}
+.boite:hover{
+    animation: shake 0.3s;
+    
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+

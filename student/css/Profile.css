@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    min-height: 100vh;
+    position:relative;
+    font-family:'Segoe UI';
+    background:url('../images/helena-lopes-592971-unsplash.jpg');
+    background-size:cover;
+}
+@font-face {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI'), url('segoeui.woff') format('woff');
+    }
+header{
+    display:flex;
+    justify-content: space-around;
+    padding-top:2.5%;  
+    height:120px;
+    
+
+}
+.logo{
+    background:white;
+    height:50px;
+    width:100px;
+    margin-right:80%;
+    
+}
+
+.Nav{
+    margin-top:20%;
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    
+    
+    
+}
+.Nav li a{
+    color:white;
+    display:block;
+    width:150px;
+    text-align:center;
+    text-decoration:none;
+    font-weight:600;
+    font-size:14px;
+}
+
+.inside_li{
+    margin-top:20px;
+    background:white;
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.11);
+    display:none;
+    list-style:none;
+    
+}
+.inside_li li a{
+    padding-top:10px;
+    padding-bottom:10px;
+    color:rgba(14, 13, 12, 0.6);
+}
+.inside_li li a:hover{
+    background:rgba(19, 204, 74, 0.747);
+}
+.Nav li:hover .inside_li {
+    display:block;
+    position: relative;
+
+}
+.Nav li:hover .inside_li:before {
+    content: "";
+    width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+    border-bottom: 10px solid white;
+    margin-left:auto;
+    margin-right:auto;
+    position: absolute;
+    left: calc(50% - 5px);
+    top:-10px
+
+}
+.profile{
+    margin-top:5%;
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    background:white;
+    height:450px;
+    padding-top:20px;
+    
+    
+
+}
+img{
+    height:200px;
+    width:200px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;  
+    border-radius:100px; 
+    margin-top:30px;
+}
+.nom{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+
+
+}
+.nomstyle{
+    color:rgba(45, 88, 167, 0.6);
+    font-size:25px;
+    font-weight:600;
+    text-align:center;
+}
+.info{
+    display:flex;
+    margin-top:60px;
+    justify-content:space-between;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+
+    
+}
+.info h3{
+    
+    font-weight:600;
+    color:rgba(46, 38, 38, 0.76);
+}
+footer{
+    background:rgba(8, 7, 7, 0.9);
+    color:white;
+margin-top:5%;
+}
+footer p {
+    padding-top:2%;
+    padding-bottom:2%;
+    text-align:center;
+    font-size:11px;
+    font-weight:600;
+}

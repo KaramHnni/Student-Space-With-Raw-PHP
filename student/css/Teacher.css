@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    min-height:100vh;
+    position:relative;
+    background:linear-gradient(to top left, rgba(236, 9, 9, 0.5), rgba(116, 35, 3, 0.9)),url(../images/neonbrand-426918-unsplash.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-family:'Segoe UI';
+}
+@font-face {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI'), url('segoeui.woff') format('woff');
+    }
+header{
+    
+    padding-left:10%;
+    padding-top:2.5%;    
+}
+.logo{
+    background:white;
+    height:50px;
+    width:100px;
+    
+}
+main{
+        
+        display:flex;
+        justify-content: space-between;
+        padding-top:10%;
+}
+.captions{
+    width:40%;
+   
+    padding-left:10%;
+    
+}
+.title{
+    color:white;
+    margin-bottom:10%;
+}
+.description{
+    font-size:13px;
+    color:white;
+    line-height:20px;
+}
+.form{
+    margin-right:auto;
+    margin-left:auto;
+    background:white;
+    box-shadow: 0px 0 30px rgb(0, 0, 0);
+    
+
+
+}
+.menu{
+    
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.menu li a{
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10%;
+    padding-bottom:5%;
+    display:inline-block;
+    color:#a5a5a5;
+    text-decoration: none;
+
+}
+.menu li a:hover{
+    border-bottom:2px solid rgba(0, 0, 0, 0.747);
+
+}
+.boxes{
+    display: none;
+    
+   
+}
+.boxes:target {
+    display: block;
+    
+}
+
+
+
+.group{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    
+
+}
+label{
+    display:block;
+    color:#a5a5a5;
+    font-weight: 400;
+    line-height: 1.3;
+    font-size:12px;
+    margin-bottom:2.5%;
+    margin-top:2.5%
+    
+}
+
+input[type=TEXT], input[type=PASSWORD]{
+    width:85%;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:4%;  
+    
+}
+.lien{
+    display:block;
+    font-size:11px;
+    margin-left:auto;
+    margin-top:5%;
+    font-weight:600;
+    line-height:1.5;
+    color:#a5a5a5;
+    width:90%;
+    margin-right:auto;
+}
+.lien a{
+    margin-left:2%;
+    text-decoration:none;
+    color:rgba(0, 0, 0, 0.747);
+}
+.Sign{
+
+    width:50%;
+    display:block;
+    margin-top:5%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:3%;
+    padding-bottom:3%;
+    border-radius:25px;
+    border:none;
+    font-weight:600;
+    line-height:1.5;
+    background:rgba(0, 0, 0, 0.747);
+    box-shadow:0px 0 30px rgba(0, 0, 0, 0.747);
+    color:white;
+    margin-bottom:7%;
+    
+   
+}
+footer{
+    margin-top:10%;
+    color:white;
+    text-align:center;
+    font-size:11px;
+    font-weight:600;
+}

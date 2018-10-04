@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    min-height: 100vh;
+    position:relative;
+    font-family:'Segoe UI';
+    background:black;
+    background-size:cover;
+}
+@font-face {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI'), url('segoeui.woff') format('woff');
+    }
+header{
+    display:flex;
+    justify-content: space-around;
+    padding-top:2.5%;  
+    height:120px;
+    
+    
+
+}
+.logo{
+    background:white;
+    height:50px;
+    width:100px;
+    margin-right:80%;
+    
+}
+
+.Nav{
+    margin-top:20%;
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    
+    
+    
+}
+.Nav li a{
+    color:white;
+    display:block;
+    width:150px;
+    text-align:center;
+    text-decoration:none;
+    font-weight:600;
+    font-size:14px;
+}
+
+.inside_li{
+    margin-top:20px;
+    background:white;
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.11);
+    display:none;
+    list-style:none;
+    
+}
+.inside_li li a{
+    padding-top:10px;
+    padding-bottom:10px;
+    color:rgba(14, 13, 12, 0.6);
+}
+.inside_li li a:hover{
+    background:rgba(102, 89, 73, 0.747);
+}
+.Nav li:hover .inside_li {
+    display:block;
+    position: relative;
+
+}
+.Nav li:hover .inside_li:before {
+    content: "";
+    width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+    border-bottom: 10px solid white;
+    margin-left:auto;
+    margin-right:auto;
+    position: absolute;
+    left: calc(50% - 5px);
+    top:-10px
+
+}
+.captionline{
+    display:flex;
+    justify-content:space-around;
+    margin-top:5%;
+    margin-bottom:5%;
+    align-items: center;
+}
+hr{
+    width:20%;
+    height:1px;
+    
+    
+}
+.section{   
+
+    margin-top:5%;
+    padding-top:2.5%;
+    padding-bottom:2.5%;
+}
+.section{
+    background:rgba(252, 252, 252, 0.925);
+    width:90%;
+    
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    height:400px;
+    
+}
+.section h2{
+    margin-top:20px;
+    font-size:18px;
+    font-weight:400;
+    color:rgba(25, 34, 46, 0.747);
+}
+footer{
+    background:rgba(8, 7, 7, 0.9);
+    color:white;
+margin-top:5%;
+}
+footer p {
+    padding-top:2%;
+    padding-bottom:2%;
+    text-align:center;
+    font-size:11px;
+    font-weight:600;
+}
